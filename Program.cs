@@ -149,6 +149,6 @@ internal class Program
 
         string dumpPath = Path.Combine(outputPath!, $"P3RMessageDump.txt");
         File.WriteAllText(dumpPath, dumpBuilder.ToString());
-        Console.WriteLine($"\n✅ Dump saved to: {dumpPath}");
+        Console.WriteLine($"Dump saved to: {dumpPath}");
     }
 }
